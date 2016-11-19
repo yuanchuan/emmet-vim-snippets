@@ -1,7 +1,7 @@
 {
   "name": "@yuanchuan/emmet-vim-snippets",
   "version": "1.0.0",
-  "description": "My custum snippets for emmet-vim",
+  "description": "My custom snippets for emmet-vim",
   "dependencies": {
     "find": "^0.2.7"
   },
