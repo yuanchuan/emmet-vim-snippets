@@ -1,0 +1,14 @@
+{
+  "name": "@yuanchuan/emmet-vim-snippets",
+  "version": "1.0.0",
+  "description": "My custum snippets for emmet-vim",
+  "dependencies": {
+    "find": "^0.2.7"
+  },
+  "author": "yuanchuan <yuanchuan23@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "github.com/yuanchuan/emmet-vim-snipepts",
+    "type": "git"
+  }
+}
