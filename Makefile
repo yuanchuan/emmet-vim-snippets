@@ -8,11 +8,8 @@ build: $(module) $(dist)
 clean:
 	@rm -rf $(dist)
 
-install link:
-	@npm $@
-
 $(dist):
-	@mkdir $(dist)
+	@mkdir -p $@
 
 $(module):
 	@npm install
