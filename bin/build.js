@@ -11,6 +11,10 @@ function basename(p) {
 
 function readFile(file) {
   return fs.readFileSync(file, 'utf8')
+    .replace(/(\n+)(\s+)/g, (_, n, s) => {
+      return s.length % 2
+        ? _ : `${n}${'  '.repeat(s.length / 2)}${s}`
+    });
 }
 
 find.dirSync(source)
